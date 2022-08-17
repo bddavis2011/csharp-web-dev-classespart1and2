@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SchoolPractice
 {
@@ -6,7 +7,8 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            // TODO: Instantiate your objects and test your exercise solutions with print statements here.
+            Student brittany = new Student("Brittany", 1, 1, 4.0);
+            Console.WriteLine("The student class works!" + brittany.Name + "is a student!");
         }
     }
 }
